@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: visureddy247/nginx-server-image:latest
+        image: visureddy247/nginx-server-image:VERSION
         ports:
         - containerPort: 80
         
