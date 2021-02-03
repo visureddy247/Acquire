@@ -24,7 +24,8 @@ spec:
         image: visureddy247/nginx-server-image
         ports:
         - containerPort: 80
-       
+        
+---
 apiVersion: v1
 kind: Service
 metadata:
